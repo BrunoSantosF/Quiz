@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table {
+    border-spacing: 10px 8px;
+    
+}
+.but {
+    border: 2px solid blue;
+    width: 120px;
+}
+
+#DesignQuestion,#Question,#NumQuestion {
+    display: inline-block;
+}
+#DesignQuestion {
+    margin-left: 5px;
+}
+#NumQuestion {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius:50%;
+    text-align: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 6px 10px 4px 8px;
+   
+}
+
+.but:hover {
+    background: crimson;
+}
+
+#box {
+    padding: 10px 20px 10px 20px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+/*---------------------------------------*/
+
+#Intro {
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+#X {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 120px;
+    height: 50px;
+    background: chocolate;
+    border-radius: 4px;
+}
+#Intro2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#Answer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 120px;
+    height: 50px;
+    background: rgb(30, 138, 210);
+    border-radius: 4px;
+    text-align: center;
+    font-size: 40px;
+}
+/*
+
+*/
