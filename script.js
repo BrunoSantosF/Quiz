@@ -13,6 +13,7 @@ let b = document.getElementById('B');
 let c = document.getElementById('C');
 let d = document.getElementById('D');
 
+
 plan2.style.display = 'none';
 plan3.style.display = 'none';
 
@@ -81,12 +82,12 @@ function alternative(x){
         console.log('Vitoria')
         N +=1;
         correct += 1;
-        if (N <=2){Flow(N);}else {End(correct)}
+        if (N <questions.length){Flow(N);}else {End(correct)}
         
     }
     else {
         N +=1
-        if (N <=2){Flow(N);}else {End(correct)}
+        if (N <questions.length){Flow(N);}else {End(correct)}
     }
 }
 

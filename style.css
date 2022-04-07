@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +10,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(0, #120c56, #000000);
+    color: white;
 }
+
 table {
     border-spacing: 10px 8px;
     
@@ -17,10 +21,12 @@ table {
 .but {
     border: 2px solid blue;
     width: 120px;
+    text-align: center;
 }
 
 #DesignQuestion,#Question,#NumQuestion {
     display: inline-block;
+    
 }
 #DesignQuestion {
     margin-left: 5px;
@@ -32,6 +38,7 @@ table {
     width: 1.5rem;
     height: 1.5rem;
     padding: 6px 10px 4px 8px;
+    background-color: violet;
    
 }
 
